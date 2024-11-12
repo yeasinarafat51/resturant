@@ -1,34 +1,5 @@
-.carousel-container {
-    width: 100%;
-    max-width: 1024px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  .mySwiper .swiper-pagination-bullet-active {
-    background-color: #007bff;
-  }
-  
-  .slide {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 24px;
-    font-weight: bold;
-    color: #fff;
-  }
-  
-  /* Styling for custom navigation buttons */
-  .custom-prev,
-  .custom-next {
-    color: #000;
-    font-size: 24px;
-    cursor: pointer;
-    transition: color 0.3s;
-  }
-  
-  .custom-prev:hover,
-  .custom-next:hover {
-    color: #007bff;
+.custom-prev:hover, .custom-next:hover {
+    color: #007bff; /* Adjust to your preferred hover color */
+    transition: color 0.2s;
   }
   

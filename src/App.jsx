@@ -3,6 +3,7 @@ import Carousel from "./components/Carousel"
 // import Exp from "./components/Exp"
 // import Exprience from "./components/Exprience"
 import Navbar from "./components/Navbar"
+import Slide from "./components/Slide"
 
 function App() {
   
@@ -10,11 +11,14 @@ function App() {
   return (
     <>
      <Navbar/>
-     <AboutSection/>
-     <div className="my-8 ">
+     {/* <AboutSection/> */}
+     <div className="my-8 gap-10 ">
      {/* <Exp/> */}
      {/* <Exprience/> */}
-     <Carousel/>
+    <div className="my-8">
+    <Carousel/>
+    </div>
+     <Slide/>
      </div>
      
     </>
