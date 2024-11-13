@@ -7,11 +7,11 @@ import vector from '../images/Vector.png';
 const HeroSection = () => {
   return (
     <div
-      className="p-6 md:p-12 bg-center bg-red-600"
+      className=" p-6 md:p-12 bg-center bg-red-600"
       style={{ backgroundImage: `url(${bk})` }}
     >
       {/* Container for Text and Image */}
-      <div className="flex flex-col md:flex-row items-center md:relative">
+      <div className="my-24 flex flex-col md:flex-row items-center md:relative">
         
         {/* Text Section */}
         <div className=" md:absolute md:z-10  top-1/4 p-">

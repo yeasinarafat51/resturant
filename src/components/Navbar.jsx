@@ -5,6 +5,7 @@ import Button from '../common/Button';
 import logo from '../images/Logo.png'
 
 
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -13,7 +14,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className="bg-green-700 shadow sticky top-0 z-50  md:w-[1320px]">
+    <header className="  fixed top-0 z-50 w-[100%]  md:w-[1320px]">
       <nav className="container mx-auto flex justify-between md:space-x-64 items-center p-4 ">
        <div className='flex items-center justify-between space-x-48 md:space-x-16'>
       

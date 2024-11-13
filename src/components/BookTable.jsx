@@ -7,7 +7,7 @@ const BookTable = () => {
     <div className='md:w-[1920px] h-[788px]  bg-cover md:p-12 ' style={{ backgroundImage: `url(${spoon})` }}>
       <div className='space-y-4'>
       <div className="flex flex-col md:flex-row gap-4">
-        <input className="w-[302px] h-[46px] border-2 py-3 px-4 text-white bg-black border-white" type="text" placeholder="Your Name * " name="" id="" />
+        <input className="w-[302px] h-[46px] border-2 py-3 px-4 text-white bg-transparent border-white" type="text" placeholder="Your Name * " name="" id="" />
         <input className="w-[302px] h-[46px] border-2 py-3 px-4 text-white bg-black border-white" placeholder="Your Email  " name="" id="" />
       </div>
       <div>
