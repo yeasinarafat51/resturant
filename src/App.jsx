@@ -1,4 +1,5 @@
 import AboutSection from "./components/AboutSection"
+import BookTable from "./components/BookTable"
 import Carousel from "./components/Carousel"
 import HeroSection from "./components/HeroSection"
 // import Exp from "./components/Exp"
@@ -11,16 +12,18 @@ function App() {
 
   return (
     <>
-     <Navbar/>
+     {/* <Navbar/> */}
      {/* <AboutSection/> */}
      <div className="my-8 gap-10 ">
      {/* <Exp/> */}
      {/* <Exprience/> */}
-    {/* <div className="my-8">
+    <div className="my-16">
+
     <Carousel/>
+    <BookTable/>
     </div>
-     <Slide/> */}
-     <HeroSection/>
+     {/* <Slide/> */}
+     {/* <HeroSection/> */}
      </div>
      
     </>
