@@ -1,5 +1,11 @@
 # React + Vite
 
+# Live-Link :https://resturant-eight-sandy.vercel.app/
+# Tailwind 
+# google Font
+# React-tabs
+# swiper js
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
