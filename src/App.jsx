@@ -2,6 +2,8 @@ import AboutSection from "./components/AboutSection"
 import BookTable from "./components/BookTable"
 import Carousel from "./components/Carousel"
 import Coustomer from "./components/Coustomer"
+import Delevary from "./components/Delevary"
+import Footer from "./components/Footer"
 import HeroSection from "./components/HeroSection"
 // import Exp from "./components/Exp"
 // import Exprience from "./components/Exprience"
@@ -17,12 +19,16 @@ function App() {
      <Navbar/>
      <HeroSection/>
      <AboutSection/>
+     {/* <Delevary/> */}
      {/* <Carousel/> */}
-     <Slide/>
+     {/* <Slide/> */}
      
-     {/* <Coustomer/> */}
-     {/* <BookTable/> */}
+     
+    
      <ResponsiveCarousel/>
+      <BookTable/>
+      <Coustomer/>
+      <Footer/>
      
      
     </>

@@ -1,109 +1,119 @@
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Autoplay } from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import './Carousel.css';
-import img from '../images/Image (1).png'
-import proja from '../images/Group.svg'
-import video from '../images/Video.png'
-import red from '../images/221.png'
-import bor from '../images/Rectangle 4708.png'
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "./Carousel.css";
+import img from "../images/Image (1).png";
+import proja from "../images/Group.svg";
+import video from "../images/Video.png";
+import red from "../images/221.png";
+import bor from "../images/Rectangle 4708.png";
+import dan from "../images/12.png";
 
 const Coustomer = () => {
   return (
-    <div className='container'>
-    
-    <div className='flex justify-between items-center'>
-    <div className='px-8' >
-    
-    <div className=' flex  items-center gap-4'>
-         <img className='w-[10px] h-[10px]' src={bor} alt="" />
-         <p className='font-[700px] text-[20px]'>Crispy, Every Bite Taste</p>
-     </div>
-      <p  className='font-[700px] text-[62px]'>What Some of my Customers Say</p>
-    
-    </div>
-    <div className='relative'>
-    <div className="custom-prev absolute bottom-[-900px] right-60 md:bottom-[-48px] md:right-2  transform -translate-y-1/2 bg-white p-2 rounded-full shadow-md cursor-pointer ">
-         ❮
-       </div>
-       <div className="custom-next absolute bottom-[-900px] right-72 md:bottom-[-48px] md:right-16  transform -translate-y-1/2 bg-white p-2 rounded-full shadow-md cursor-pointer ">
-         ❯
-       </div>
-    </div>
-    </div>
-     <div className=" flex flex-col md:flex-row relative my-8   ">
-     {/* <img  className=' m-[-90px] w-[307px] h-[303px]' src={red} alt="" /> */}
-       
-       
-       <Swiper
-         slidesPerView={1}
-         spaceBetween={10}
-         loop={true}
-         autoplay={{
-           delay: 2500,
-           disableOnInteraction: false,
-         }}
-         pagination={{ clickable: true }}
-         navigation={{
-           nextEl: '.custom-next',
-           prevEl: '.custom-prev',
-         }}
-         modules={[Navigation, Pagination, Autoplay]}
-         className="mySwiper"
-       >
-         <SwiperSlide className="  w-[1320px] h-[555px] p-4 bg-white shadow-lg rounded-lg flex items-center justify-center  ">
-        <div className='flex'>
-        <div className='w-[557px]  relative  bg-[#FEBF00] p-5'>
-            <img className='absolute bottom-24 left-0 w-[40px] h[77px]' src={proja} alt="" />
-            <div className='space-y-40 w-[386px] h-[411px] px-5 py-10 m-auto'> 
-            <p className='font-[400px] text-[20px]'>You can go wrong with Chicken Mandi, I had it twice. The chicken was cooked perfectly, juicy & soft (usually mandi chicken is a bit dry). I would defiantly recommend it.</p>
-            <div className='flex justify-between items-center border-b border-black'>
-                <div>
-                    <p className='font-[700px] text-[18px]'>Khalid Al Dawsry</p>
-                    <p className='font-[400px] text-[14px]'>Jeddah, Saudi</p>
-                </div>
-                <img src={img} alt="" />
-            </div>
-            </div>
-         </div>
-         <img className='w-[763px]' src={video} alt="" />
-        </div>
-         </SwiperSlide>
-         <SwiperSlide className="  w-[1320px] h-[555px] p-4 bg-white shadow-lg rounded-lg flex items-center justify-center  ">
-        <div className='flex'>
-        <div className='w-[557px]  relative  bg-[#FEBF00] p-5'>
-            <img className='absolute bottom-24 left-0 w-[40px] h[77px]' src={proja} alt="" />
-            <div className='space-y-40 w-[386px] h-[411px] px-5 py-10 m-auto'> 
-            <p className='font-[400px] text-[20px]'>You can go wrong with Chicken Mandi, I had it twice. The chicken was cooked perfectly, juicy & soft (usually mandi chicken is a bit dry). I would defiantly recommend it.</p>
-            <div className='flex justify-between items-center border-b border-black'>
-                <div>
-                    <p className='font-[700px] text-[18px]'>Khalid Al Dawsry</p>
-                    <p className='font-[400px] text-[14px]'>Jeddah, Saudi</p>
-                </div>
-                <img src={img} alt="" />
-            </div>
-            </div>
-         </div>
-         <img className='w-[763px]' src={video} alt="" />
-        </div>
-         </SwiperSlide>
-         
-        
-         
-       </Swiper>
- 
-       {/* Custom Next and Prev Buttons */}
-       {/* <div className="custom-prev absolute bottom-0 right-1/2 md:right-8 md:top-8 transform -translate-y-1/2 bg-white p-2 rounded-full shadow-md cursor-pointer z-10">
-         ❮
-       </div>
-       <div className="custom-next absolute bottom-0 right-2/3 md:right-0 md:top-8 transform -translate-y-1/2 bg-white p-2 rounded-full shadow-md cursor-pointer z-10">
-         ❯
-       </div> */}
-     </div>
-   </div>
-  )
-}
+    <div className="relative container mx-auto px-4 mt-8   ">
+      <img
+        src={red}
+        className="absolute  bottom-[300px] ml-[-200px] bg-cover h-[490px]    hidden md:block"
+        alt=""
+      />
+      <img
+        src={dan}
+        className="absolute bottom-0 right-[-30px] bg-cover h-[303px]     hidden md:block"
+        alt=""
+      />
 
-export default Coustomer
+      <div className="flex  items-center gap-2 ">
+        <img className="w-[10px] h-[10px]" src={bor} alt="" />
+        <p className="font-[700px] text-[20px]">Crispy, Every Bite Taste</p>
+      </div>
+      <p className="md:font-[700px] font-semibold text-[30px] md:text-[62px] mb-8">
+        What Some of my Customers Say
+      </p>
+
+      <Swiper
+        slidesPerView={1}
+        spaceBetween={10}
+        loop={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        pagination={{ clickable: true }}
+        navigation={{
+          nextEl: ".custom-next",
+          prevEl: ".custom-prev",
+        }}
+        modules={[Navigation, Pagination, Autoplay]}
+        className="mySwiper"
+      >
+        <SwiperSlide className="  w-full  md:w-[1320px] h-auto md:h-[555px] p-4   rounded-lg flex items-center justify-center  ">
+          <div className="flex flex-col md:flex-row">
+            <div className="md:w-[557px] w-full  relative  bg-[#FEBF00] p-5">
+              <img
+                className="absolute bottom-24 left-0 w-[40px] h[77px]"
+                src={proja}
+                alt=""
+              />
+              <div className="space-y-40 w-[386px] h-[411px] px-5 py-10 m-auto">
+                <p className="font-[400px] text-[20px]">
+                  You can go wrong with Chicken Mandi, I had it twice. The
+                  chicken was cooked perfectly, juicy & soft (usually mandi
+                  chicken is a bit dry). I would defiantly recommend it.
+                </p>
+                <div className="flex justify-between items-center border-b border-black">
+                  <div>
+                    <p className="font-[700px] text-[18px]">Khalid Al Dawsry</p>
+                    <p className="font-[400px] text-[14px]">Jeddah, Saudi</p>
+                  </div>
+                  <img src={img} alt="" />
+                </div>
+              </div>
+            </div>
+            <img className="md:w-[763px] w-full" src={video} alt="" />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="  w-full  md:w-[1320px] h-auto md:h-[555px] p-4  rounded-lg flex items-center justify-center  ">
+          <div className="flex flex-col md:flex-row">
+            <div className="md:w-[557px] w-full   relative  bg-[#FEBF00] p-5">
+              <img
+                className="absolute bottom-24 left-0 w-[40px] h[77px]"
+                src={proja}
+                alt=""
+              />
+              <div className="space-y-40 w-[386px] h-[411px] px-5 py-10 m-auto">
+                <p className="font-[400px] text-[20px]">
+                  You can go wrong with Chicken Mandi, I had it twice. The
+                  chicken was cooked perfectly, juicy & soft (usually mandi
+                  chicken is a bit dry). I would defiantly recommend it.
+                </p>
+                <div className="flex justify-between items-center border-b border-black">
+                  <div>
+                    <p className="font-[700px] text-[18px]">Khalid Al Dawsry</p>
+                    <p className="font-[400px] text-[14px]">Jeddah, Saudi</p>
+                  </div>
+                  <img src={img} alt="" />
+                </div>
+              </div>
+            </div>
+            <img className="md:w-[763px] w-full" src={video} alt="" />
+          </div>
+        </SwiperSlide>
+      </Swiper>
+
+      {/* Custom Navigation Buttons */}
+      <div className="relative flex justify-end mt-4">
+        <button className="absolute md:top-[-700px] md:right-6 right-64 custom-prev md:mr-8  p-2 bg-gray-300 rounded-full hover:bg-gray-400 transition duration-200">
+          ❮
+        </button>
+        <button className=" absolute md:top-[-700px]  md:right-4 right-52 custom-next p-2 bg-gray-300 rounded-full hover:bg-gray-400 transition duration-200">
+          ❯
+        </button>
+      </div>
+    </div>
+  );
+};
+
+export default Coustomer;

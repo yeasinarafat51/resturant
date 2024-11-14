@@ -5,15 +5,18 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import Slide from './Slide';
+import bor from '../images/Rectangle 4708.png'
+import side from '../images/Frame 1707478073.png'
 
 const ResponsiveCarousel = () => {
   return (
-    <div className="container mx-auto px-4">
-         <div className='flex  items-center'>
-            {/* <img className='w-[10px] h-[10px]' src={bor} alt="" /> */}
+    <div className="relative container mx-auto px-4 ">
+      <img src={side} className='absolute bottom-[-40px] ml-[-160px] h-[490px] hidden md:block' alt="" />
+         <div className='flex  items-center gap-2 '>
+            <img className='w-[10px] h-[10px]' src={bor} alt="" />
             <p className='font-[700px] text-[20px]'>Crispy, Every Bite Taste</p>
         </div>
-         <p  className='font-[700px] text-[62px]'>POPULAR FOOD ITEMS</p>
+         <p  className='md:font-[700px] font-bold text-[30px] md:text-[62px] mb-8'>POPULAR FOOD ITEMS</p>
        
        
       <Swiper
@@ -59,10 +62,10 @@ const ResponsiveCarousel = () => {
 
       {/* Custom Navigation Buttons */}
       <div className="relative flex justify-end mt-4">
-        <button className="absolute md:top-[-400px] md:right-0 right-1/2 custom-prev md:mr-8  p-2 bg-gray-300 rounded-full hover:bg-gray-400 transition duration-200">
+        <button className="absolute md:top-[-400px] md:right-6 right-64 custom-prev md:mr-8  p-2 bg-gray-300 rounded-full hover:bg-gray-400 transition duration-200">
           ❮
         </button>
-        <button className=" absolute md:top-[-400px]  md:right-0 right-2/3 custom-next p-2 bg-gray-300 rounded-full hover:bg-gray-400 transition duration-200">
+        <button className=" absolute md:top-[-400px]  md:right-4 right-52 custom-next p-2 bg-gray-300 rounded-full hover:bg-gray-400 transition duration-200">
           ❯
         </button>
       </div>

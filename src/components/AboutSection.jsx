@@ -2,6 +2,8 @@
 import barger from '../images/Image.png'
 import Tabes from './Tabes'
 import pakage from '../images/package.png'
+import Delevary from './Delevary'
+import bell from '../images/top-view-bell-pepper-pepper-sliced-black-bowl-white-horizontal 2.png'
 
 
 const AboutSection = () => {
@@ -9,30 +11,20 @@ const AboutSection = () => {
 
     
   return (
-    <div>
-      <div className='flex flex-col md:flex-row  justify-center md:space-x-8 lg:w-[1320px] lg:h-[460px]'>
-      <img className='w-[617px] h-[460px]'  src={barger} alt="" />
-      <div>
-      <Tabes/>
-      </div>
+    <div className='container relative space-y-12  p-4  md:mx-6 my-16 overflow-hidden'>
+      <div className=' flex flex-col md:flex-row    md:space-x-8  lg:h-[460px] '>
+      <img className='flex justify-center bg-center md:w-[617px] w-[100%] md:h-[460px] h-auto'  src={barger} alt="" />
+     <div className='pt-6 md:pt-1'>
+     <Tabes/>
+     </div>
     </div>
-    <div>
-    <div className="flex items-center w-[440px] p-4 bg-white rounded-lg shadow-2xl">
-  {/* Image Container */}
-  <div className="w-[90px] h-[90px] flex items-center justify-center rounded-full bg-[#FFFFFF] shadow-lg mr-4">
-    <img className="w-[33.33px] h-[35px] py-[2.5px] px-[3.33px]" src={pakage} alt="Package Icon" />
-  </div>
+    <Delevary/>
+    <img src={bell} className='h-[340px] absolute right-0 top-56 mr-[-80px] hidden md:block  ' alt="" />
 
-  {/* Text Content */}
-  <div>
-    <p className="font-[700px] text-[30px]">Within 30 minutes</p>
-    <p className="font-[400px] text-[20px]">Fast delivery</p>
-  </div>
-</div>
-
-    </div>
+    
     </div>
   )
 }
 
 export default AboutSection
+{/* <img className='md:w-[617px] w-[100%] md:h-[460px] h-auto'  src={barger} alt="" /> */}

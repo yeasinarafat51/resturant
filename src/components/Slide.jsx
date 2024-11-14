@@ -33,7 +33,7 @@ const Slide = () => {
 
 
   return (
-    <div className="w-[306px] h-[300px] p-4 bg-white shadow-lg rounded-lg ">
+    <div className="w-[306px] h-[300px] p-4 mx-12 md:mx-1 bg-white shadow-lg rounded-lg ">
     <div className="flex justify-center mb-4">
       <img
         className="w-[186px] h-[124px] rounded-lg"

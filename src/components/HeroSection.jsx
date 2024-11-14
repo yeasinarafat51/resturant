@@ -7,14 +7,14 @@ import vector from '../images/Vector.png';
 const HeroSection = () => {
   return (
     <div
-      className=" p-6 md:p-12 bg-center bg-red-600"
+      className=" p-4 md:p-12 bg-center bg-red-600"
       style={{ backgroundImage: `url(${bk})` }}
     >
       {/* Container for Text and Image */}
-      <div className="my-24 flex flex-col md:flex-row items-center md:relative">
+      <div className="  my-24 flex flex-col md:flex-row items-center md:relative">
         
         {/* Text Section */}
-        <div className=" md:absolute md:z-10  top-1/4 p-">
+        <div className=" md:absolute md:z-10  top-1/4 ">
           <h1
             className="font-bold text-4xl md:text-6xl lg:text-7xl uppercase text-white md:pr-4 leading-tight md:bg-gradient-to-r from-transparent via-[rgba(189,31,23,0.7)] to-[rgba(189,31,23,0.7)]"
            

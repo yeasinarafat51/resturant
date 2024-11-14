@@ -14,8 +14,8 @@ const Navbar = () => {
   };
 
   return (
-    <header className="  fixed top-0 z-50 w-[100%]  md:w-[1320px]">
-      <nav className="container mx-auto flex justify-between md:space-x-64 items-center p-4 ">
+    <header className="container md:mx-6 fixed top-0 z-50   ">
+      <nav className=" flex justify-between md:space-x-64 items-center p-4 ">
        <div className='flex items-center justify-between space-x-48 md:space-x-16'>
       
        <img src={logo} alt="" />
