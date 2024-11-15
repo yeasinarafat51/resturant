@@ -8,7 +8,8 @@ export default {
     extend: {
       fontFamily: {
         "Raleway":['"Raleway"', "sans-serif"],
-        "Roboto":['"Roboto"', "sans-serif"]
+        "Roboto":['"Roboto"', "sans-serif"],
+        "Bebas Neue":['"Bebas Neue"', "sans-serif"],
       },
     },
   },

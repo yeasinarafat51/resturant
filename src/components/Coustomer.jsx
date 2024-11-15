@@ -1,5 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
+import { RiDoubleQuotesL } from "react-icons/ri";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -27,9 +28,9 @@ const Coustomer = () => {
 
       <div className="flex  items-center gap-2 ">
         <img className="w-[10px] h-[10px]" src={bor} alt="" />
-        <p className="font-[700px] text-[20px]">Crispy, Every Bite Taste</p>
+        <p className="font-[700px] text-[20px] font-Roboto">Crispy, Every Bite Taste</p>
       </div>
-      <p className="md:font-[700px] font-semibold text-[30px] md:text-[62px] mb-8">
+      <p className="md:font-[700px] font-semibold text-[30px] md:text-[62px] mb-8 font-Bebas Neue">
         What Some of my Customers Say
       </p>
 
@@ -41,7 +42,7 @@ const Coustomer = () => {
           delay: 2500,
           disableOnInteraction: false,
         }}
-        pagination={{ clickable: true }}
+       
         navigation={{
           nextEl: ".custom-next",
           prevEl: ".custom-prev",
@@ -53,20 +54,21 @@ const Coustomer = () => {
           <div className="flex flex-col md:flex-row">
             <div className="md:w-[557px] w-full  relative  bg-[#FEBF00] p-5">
               <img
-                className="absolute bottom-24 left-0 w-[40px] h[77px]"
+                className="absolute bottom-24 left-0 w-[40px] h-[77px]"
                 src={proja}
                 alt=""
               />
               <div className="space-y-40 w-[386px] h-[411px] px-5 py-10 m-auto">
-                <p className="font-[400px] text-[20px]">
+                <p className="relative font-[400px] text-[20px] font-Roboto">
+                <RiDoubleQuotesL className="absolute ml-[-24px] top-[-12px] w-[29.13px]" />
                   You can go wrong with Chicken Mandi, I had it twice. The
                   chicken was cooked perfectly, juicy & soft (usually mandi
                   chicken is a bit dry). I would defiantly recommend it.
                 </p>
                 <div className="flex justify-between items-center border-b border-black">
                   <div>
-                    <p className="font-[700px] text-[18px]">Khalid Al Dawsry</p>
-                    <p className="font-[400px] text-[14px]">Jeddah, Saudi</p>
+                    <p className="font-[700px] text-[18px] font-Bebas Neue">Khalid Al Dawsry</p>
+                    <p className="font-[400px] text-[14px] font-Roboto">Jeddah, Saudi</p>
                   </div>
                   <img src={img} alt="" />
                 </div>
@@ -84,8 +86,11 @@ const Coustomer = () => {
                 alt=""
               />
               <div className="space-y-40 w-[386px] h-[411px] px-5 py-10 m-auto">
-                <p className="font-[400px] text-[20px]">
-                  You can go wrong with Chicken Mandi, I had it twice. The
+             
+                
+                <p className="font-[400px] text-[20px] relative">
+                <RiDoubleQuotesL className="absolute ml-[-24px] top-[-12px] w-[29.13px]" />
+                You can go wrong with Chicken Mandi, I had it twice. The
                   chicken was cooked perfectly, juicy & soft (usually mandi
                   chicken is a bit dry). I would defiantly recommend it.
                 </p>

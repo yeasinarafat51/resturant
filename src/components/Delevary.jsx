@@ -17,8 +17,8 @@ const Delevary = () => {
 
         {/* Text Content */}
         <div>
-          <p className="uppercase font-[700px] text-[30px]">Fast delivery</p>
-          <p className="font-[400px] text-[20px]">Within 30 minutes</p>
+          <p className="uppercase font-[700px] text-[30px] font-Bebas Neue">Fast delivery</p>
+          <p className="font-[400px] text-[20px] font-Roboto ">Within 30 minutes</p>
         </div>
       </div>
       <div className="flex items-center w-[440px] p-4 bg-white rounded-lg shadow-2xl">
@@ -33,8 +33,8 @@ const Delevary = () => {
 
         {/* Text Content */}
         <div>
-          <p className="uppercase font-[700px] text-[30px]">absolute dining</p>
-          <p className="font-[400px] text-[20px]">Best buffet restaurant</p>
+          <p className="uppercase font-[700px] text-[30px] font-Bebas Neue">absolute dining</p>
+          <p className="font-[400px] text-[20px] font-Roboto">Best buffet restaurant</p>
         </div>
       </div>
       <div className="flex items-center w-[440px] p-4 bg-white rounded-lg shadow-2xl">
@@ -49,8 +49,8 @@ const Delevary = () => {
 
         {/* Text Content */}
         <div>
-          <p className="uppercase font-[700px] text-[30px]">pickup delivery</p>
-          <p className="font-[400px] text-[20px]">Best buffet restaurant</p>
+          <p className="uppercase font-[700px] text-[30px] font-Bebas Neue">pickup delivery</p>
+          <p className="font-[400px] text-[20px] font-Roboto">Best buffet restaurant</p>
         </div>
       </div>
     </div>

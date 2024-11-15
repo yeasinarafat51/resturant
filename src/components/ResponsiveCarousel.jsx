@@ -22,9 +22,9 @@ const ResponsiveCarousel = () => {
       />
       <div className="flex  items-center gap-2 ">
         <img className="w-[10px] h-[10px]" src={bor} alt="" />
-        <p className="font-[700px] text-[20px]">Crispy, Every Bite Taste</p>
+        <p className="font-[700px] text-[20px] font-Roboto">Crispy, Every Bite Taste</p>
       </div>
-      <p className="md:font-[700px] font-bold text-[30px] md:text-[62px] mb-8">
+      <p className="md:font-[700px] font-bold text-[30px] md:text-[62px] mb-8 font-Bebas Neue">
         POPULAR FOOD ITEMS
       </p>
 

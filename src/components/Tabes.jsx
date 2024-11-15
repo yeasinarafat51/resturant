@@ -7,7 +7,7 @@ const Tabes = () => {
   return (
     <div className="  h-[402px]  ">
       <Tabs>
-        <TabList className="flex space-x-2 border-b ">
+        <TabList className="flex font-Roboto space-x-2 border-b ">
           <Tab
             className="px-4 py-2 border-none text-black font-[500px] text-[14px] "
             selectedClassName="bg-[#B52B1D] text-white border-0"
@@ -29,10 +29,10 @@ const Tabes = () => {
         </TabList>
 
         <TabPanel className="space-y-2">
-          <p className="font-bold text-[40px]  uppercase">
+          <p className="font-Bebas Neue font-bold text-[40px]  uppercase">
             Exceptional culinary experience and delicious food
           </p>
-          <p className="font-[400px] text-[16px] text-[#333333]">
+          <p  className="font-Roboto font-[400px] text-[16px] text-[#333333]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare non
             sed est cursus. Vel hac convallis ipsum, facilisi odio pellentesque
             bibendum viverra tempus. Lorem ipsum dolor sit amet consectetur
@@ -48,10 +48,10 @@ const Tabes = () => {
           </div>
         </TabPanel>
         <TabPanel className="space-y-2">
-          <p className="font-bold text-[40px]  uppercase">
+          <p className="font-Bebas Neue font-bold text-[40px]  uppercase">
             Exceptional culinary experience and delicious food
           </p>
-          <p className="font-[400px] text-[16px] text-[#333333]">
+          <p  className="font-Roboto font-[400px] text-[16px] text-[#333333]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare non
             sed est cursus. Vel hac convallis ipsum, facilisi odio pellentesque
             bibendum viverra tempus. Lorem ipsum dolor sit amet consectetur
@@ -59,7 +59,7 @@ const Tabes = () => {
             magna minim veniam nostrud exercitation.
           </p>
           <div className="flex items-center gap-8">
-            <Button>About More</Button>
+            <Button>Experience</Button>
             <div className="flex items-center gap-1 ">
               <img className="w-[20px] h-[20px]" src={call} alt="" />
               <p>+88 3426 739 485</p>
@@ -67,10 +67,10 @@ const Tabes = () => {
           </div>
         </TabPanel>
         <TabPanel className="space-y-2">
-          <p className="font-bold text-[40px]  uppercase">
+          <p className="font-Bebas Neue font-bold text-[40px]  uppercase">
             Exceptional culinary experience and delicious food
           </p>
-          <p className="font-[400px] text-[16px] text-[#333333]">
+          <p  className="font-Roboto font-[400px] text-[16px] text-[#333333]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare non
             sed est cursus. Vel hac convallis ipsum, facilisi odio pellentesque
             bibendum viverra tempus. Lorem ipsum dolor sit amet consectetur
@@ -78,13 +78,14 @@ const Tabes = () => {
             magna minim veniam nostrud exercitation.
           </p>
           <div className="flex items-center gap-8">
-            <Button>About More</Button>
+            <Button>Contact</Button>
             <div className="flex items-center gap-1 ">
               <img className="w-[20px] h-[20px]" src={call} alt="" />
               <p>+88 3426 739 485</p>
             </div>
           </div>
         </TabPanel>
+       
       </Tabs>
     </div>
   );

@@ -13,10 +13,10 @@ const Slide = ({ img, title, discription }) => {
 
       <div className="border-b-2 border-[#BD1F17] w-[57px] mx-auto mb-2"></div>
 
-      <p className="uppercase font-bold text-[24px] text-gray-800 mb-1 text-center">
+      <p className="font-Bebas Neue uppercase font-bold text-[24px] text-gray-800 mb-1 text-center">
         {title}
       </p>
-      <p className="font-medium text-[16px] text-gray-600 text-center">
+      <p className="font-Roboto font-medium text-[16px] text-gray-600 text-center">
         {discription}
       </p>
     </div>
