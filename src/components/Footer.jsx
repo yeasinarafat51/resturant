@@ -10,7 +10,7 @@ import map from '../images/map-pin.png'
 
 const Footer = () => {
   return (
-    <div  className=" w-[100%] brightness-75 bg-[#000000CC] bg-cover h-full md:h-[719px] p-4 md:p-12 mt-24 "
+    <div  className=" w-[100%] brightness-75  bg-cover h-full md:h-[719px] p-4 md:p-12 mt-24 "
     style={{ backgroundImage: `url(${resturant})` }}>
         <div className=''>
             <p className=' uppercase font-bold text-[42px] text-[#FFFFFF] font-Bebas Neue'>We ready to have you the best dining experiences</p>
